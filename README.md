@@ -7,7 +7,7 @@ Install Office and FREE!
 # Run
 1. Install ZIP
 2. Extract Folder
-3. Open v1.0.0 folder.
+3. Open office folder.
 4. Run "Office Installer"
 5. Enter Language Number
 6. That's it it will download for you!
