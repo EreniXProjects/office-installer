@@ -1,7 +1,7 @@
 # Office Installer
 
-# Install Office and FREE!
+Install Office and FREE!
 
 
 # Change Log
-- no update!
+ v1.0.0 - Released
