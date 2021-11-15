@@ -9,7 +9,7 @@ Install Office and FREE!
 2. Extract Folder
 3. Open office folder.
 4. Run "Office Installer"
-5. Enter Language Number
+5. Enter Language ID
 6. That's it it will download for you!
 
 ![photo](https://user-images.githubusercontent.com/43515826/141777504-fa619406-8625-4b51-9491-b0df53abff4b.png)
