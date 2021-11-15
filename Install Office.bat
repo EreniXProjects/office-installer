@@ -1,51 +1,22 @@
 @echo off
 cls
 
-echo ==================================
-echo  1 - Install Office with EN Lang
-echo  2 - Install Office with TR Lang
-echo  3 - Install Office with FR Lang
-echo  4 - Install Office with DE Lang
-echo  5 - Install Office with KR Lang
-echo  6 - Install Office with RU Lang
-echo  0 - Exit Office Installer
-echo ==================================
+echo =====================================
+echo Enter Language ID and start INSTALL!
+echo =====================================
+echo Example: en-US or en-us
+echo =====================================
 
-set /p lang= Number:
-if %lang%==1 goto langen
-if %lang%==2 goto langtr
-if %lang%==3 goto langfr
-if %lang%==4 goto langde
-if %lang%==5 goto langkr
-if %lang%==6 goto langru
-if %lang%==0 goto exitoffice
-goto :choice
+set /p lang= ID:
+if EXIST .\languages\%lang%.xml (
+  echo Office Installing with %lang% Language...
+  .\sources\setup.exe /configure .\languages\%lang%.xml
 
-:langen
-.\sources\setup.exe /configure .\languages\en-US.xml
-Exit
+  echo Office Installed Successful!
+  Exit
 
-:langtr
-.\sources\setup.exe /configure .\languages\tr-TR.xml
-Exit
+) ELSE (
+    echo "%lang%" Named language not found!
+)
 
-:langfr
-.\sources\setup.exe /configure .\languages\fr-FR.xml
-Exit
-
-:langde
-.\sources\setup.exe /configure .\languages\de-DE.xml
-Exit
-
-:langkr
-.\sources\setup.exe /configure .\languages\ko-KR.xml
-Exit
-
-:langru
-.\sources\setup.exe /configure .\languages\ru-RU.xml
-Exit
-
-:exitoffice
-Exit
-
-:End
+pause
