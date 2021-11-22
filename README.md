@@ -13,7 +13,7 @@ Install Office and FREE!
 3. Open office folder.
 4. Run "Run.py"
 5. Enter Case.
-6. Enter language. (only selected 1 choice)
+6. Enter language. (Available for option 1 only)
 7. That's it it will download for you!
 
 ![photo](https://user-images.githubusercontent.com/43515826/141777504-fa619406-8625-4b51-9491-b0df53abff4b.png)
