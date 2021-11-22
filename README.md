@@ -3,19 +3,25 @@
 
 Install Office and FREE!
 
+# Required Programs
+
+- [Python](https://www.python.org/downloads)
 
 # Run
 1. Install ZIP
 2. Extract Folder
 3. Open office folder.
-4. Run "Run.bat"
-5. Enter Language ID
+4. Run "Run.py"
+5. Enter Case.
 6. That's it it will download for you!
 
 ![photo](https://user-images.githubusercontent.com/43515826/141777504-fa619406-8625-4b51-9491-b0df53abff4b.png)
 
 # Change Log
 
+ v1.0.12 - Updates
+  - Changed INSTALLER!
+  
  v1.0.10 - Updates
   - Changed INSTALLER!
   - Added some langs!
