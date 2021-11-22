@@ -5,7 +5,7 @@ Install Office and FREE!
 
 # Required Programs
 
-- [Python](https://www.python.org/downloads) (3.10.0 or later)
+- [Python](https://www.python.org/downloads) (3.9.9 or later)
 
 # Run
 1. Install ZIP
