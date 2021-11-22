@@ -18,7 +18,7 @@ Install Office and FREE!
 
 ![photo](https://user-images.githubusercontent.com/43515826/141777504-fa619406-8625-4b51-9491-b0df53abff4b.png)
 
-Note: Microsoft Office 2021 (365) can only be installed on Windows 10 or higher! 
+Note: Microsoft Office 2021 can only be installed on Windows 10 or higher! 
 
 # Change Log
 
