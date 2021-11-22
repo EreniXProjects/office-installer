@@ -8,7 +8,7 @@ class Exit():
  os.system("exit")
 
 class Install():
- os.system("start .\sources\Install.py")
+ os.system("start ./sources/Install.py")
 
 if(Case == 1):
  Install();
