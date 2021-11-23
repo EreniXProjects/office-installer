@@ -22,6 +22,9 @@ Note: Microsoft Office 2021 can only be installed on Windows 10 or higher!
 
 # Change Log
 
+ v1.0.15 - Updates
+  - Added all languages
+  
  v1.0.12 - Updates
   - Changed INSTALLER!
   
